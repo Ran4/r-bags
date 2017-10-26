@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.c--bag-view {
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.baglisting {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.c--bag-in-listing {
+  border: 1px solid #0f0f0f;
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  background: rgba(0,110,0, 0.3)
+}
+
+.c--bag-in-listing .bag-name {
+  font-size: 24px;
+  margin: 8px;
+  font-weight: bold;
+}
+
+.c--bag-in-listing img {
+  background-color: rgba(10, 10, 10, 0.1);
+  width: 256px;
+  height: 256px;
+}
+
+.c--bag-in-listing .bag-price {
+  font-size: 22px;
+}
+
+.c--bag-in-listing .bag-price .amount {
+  font-size: 24px;
+  color: #2020cd;
+}
